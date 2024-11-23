@@ -88,7 +88,7 @@ img {
 .section-title::after {
   position: absolute;
   content: '';
-  width: 64px;
+  width: 70px;
   height: 0.18rem;
   left: 0;
   right: 0;
@@ -349,12 +349,13 @@ img {
   padding: var(--mb-6) var(--mb-4);  
 }
 
+
 .project-item {
   margin-bottom: var(--mb-5);  
 }
 
 .project-item h3 {
-  font-size: var(--big-font-size);  
+  font-size: 2rem;  
   margin-bottom: var(--mb-2);  
   color: var(--first-color);  
 }
@@ -368,7 +369,7 @@ img {
 
 /* Section Title for Projects */
 #projects h2 {
-  font-size: var(--big-font-size);
+  font-size: 2rem;/*var(--normal-font-size);*/
   margin-bottom: var(--mb-5);
   color: var(--first-color);
   text-align: center;
